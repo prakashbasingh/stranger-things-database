@@ -5,7 +5,9 @@ const router = express.Router()
 
 const Characters = require("./characterModel.js")
 
-
+router.get("/", (req, res) => {
+   
+})
 
 router.get("/test", (req, res) => {
     res.send("yes it is working")
